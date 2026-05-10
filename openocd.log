@@ -1,0 +1,38 @@
+Open On-Chip Debugger 0.12.0+dev-01486-g4e9b167e1-dirty (2026-05-02-09:23)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+DEPRECATED! use 'gdb memory_map', not 'gdb_memory_map'
+DEPRECATED! use 'gdb flash_program', not 'gdb_flash_program'
+Info : Listening on port 6666 for tcl connections
+Info : Listening on port 4444 for telnet connections
+Info : STLINK V2J46M32 (API v2) VID:PID 0483:3752
+Info : Target voltage: 3.207273
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : clock speed 1800 kHz
+Info : SWD DPIDR 0x0bc11477
+Info : [stm32c0x.cpu] Cortex-M0+ r0p1 processor detected
+Info : [stm32c0x.cpu] target has 4 breakpoints, 2 watchpoints
+Info : [stm32c0x.cpu] Examination succeed
+Info : [stm32c0x.cpu] starting gdb server on 3333
+Info : Listening on port 3333 for gdb connections
+Info : accepting 'gdb' connection on tcp/3333
+[stm32c0x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0x61000000 pc: 0x08000108 msp: 0x20006000
+Info : device idcode = 0x10016493 (STM32C071xx - Rev Z : 0x1001)
+Info : RDP level 0 (0xAA)
+Info : flash size = 128 KiB
+Info : flash mode : single-bank
+Info : device idcode = 0x10016493 (STM32C071xx - Rev Z : 0x1001)
+Info : RDP level 0 (0xAA)
+Info : OTP size is 1024 bytes, base address is 0x1fff7000
+Warn : Prefer GDB command "target extended-remote :3333" instead of "target remote :3333"
+[stm32c0x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0xf1000000 pc: 0x0800010c msp: 0x20006000
+[stm32c0x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0xf1000000 pc: 0x0800010c msp: 0x20006000
+[stm32c0x.cpu] halted due to debug-request, current mode: Thread 
+xPSR: 0xf1000000 pc: 0x0800010c msp: 0x20006000
+Info : dropped 'gdb' connection
+shutdown command invoked
